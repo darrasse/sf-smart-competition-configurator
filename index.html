@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swiss Fencing Smart Competition Configurator</title>
+    <script src="config.js" defer></script>
+</head>
+<body>
+    <h1>Swiss Fencing Smart Competition Configurator</h1>
+    <form id="parameters">
+        <label for="participants">Participants</label>
+        <input type="number" id="participants" name="participants" min="1" max="64">
+        <br>
+        Modus
+        <input type="radio" id="modus1" name="modus" value="1">
+        <label for="modus1">1</label>
+        <input type="radio" id="modus2" name="modus" value="2">
+        <label for="modus1">2</label>
+        <input type="radio" id="modus3" name="modus" value="3">
+        <label for="modus1">3</label>
+        <br>
+        <input type="submit" value="Configure">
+    </form>
+    <div id="output"></div>
+</body>
+</html>
